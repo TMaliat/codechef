@@ -6,7 +6,7 @@ int main()
     if(IQ_X>=100 && IQ_X<=169)
     {
         int iq=IQ_X + 7;
-        if(iq >= 170) printf("Yes\n");
+        if(iq > 170) printf("Yes\n");
         else printf("No\n");
     }
     return 0;
